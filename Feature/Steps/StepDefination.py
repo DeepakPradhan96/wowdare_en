@@ -44,8 +44,9 @@ def step_impl(context):
 
 @when(u'Click On Q1')
 def step_impl(context):
-    q1=context.driver.find_element_by_xpath("//div[@data-file-id='197']")
-    context.driver2.execute_script('arguments[0].click()', q1)
+    #context.driver.execute_script("window.scrollTo(0, 800)")
+    context.driver.find_element_by_xpath("//div[@data-file-id='197']").click()
+
 
 @when(u'Validate onesignal pop-up functionality With click on Later Button')
 def step_impl(context):
@@ -60,12 +61,12 @@ def step_impl(context):
 @when(u'Click On Q2')
 def step_impl(context):
     context.driver.implicitly_wait(10)
-    q2=context.driver.find_element_by_xpath("//div[@data-file-id='160']")
-    context.driver2.execute_script('arguments[0].click()', q2)
+    context.driver.find_element_by_xpath("//div[@data-file-id='160']").click()
+
 @when(u'Click On Q3')
 def step_impl(context):
-    q3=context.driver.find_element_by_xpath("//div[@value='Green']")
-    context.driver2.execute_script('arguments[0].click()', q3)
+    context.driver.find_element_by_xpath("//div[@value='Green']").click()
+
 
 @when(u'Click On Q4')
 def step_impl(context):
@@ -201,33 +202,35 @@ def step_impl(context):
 def step_impl(context):
     Confrom_button = context.driver2.find_element_by_xpath("//a[text()='Confirm']")
     context.driver2.execute_script('arguments[0].click()', Confrom_button)
+    time.sleep(2)
 
 
 @then(u'User Friend Should be Navigate to Answer Page  Successfully')
 def step_impl(context):
     assert context.driver2.current_url=="https://wowdare.xyz/en/answer?utm_site_source=accept&utm_site_medium=startButton&utm_site_campaign=userFriend","invalid Answer Page url"
-    time.sleep(1)
+
 @when(u'User Friend Click On Q1')
 def step_impl(context):
-    Q1=context.driver2.find_element_by_xpath("//div[@data-file-id='197']")
-    context.driver2.execute_script('arguments[0].click()', Q1)
+    context.driver2.implicitly_wait(20)
+    context.driver2.execute_script("window.scrollTo(0, 600)")
+    context.driver2.find_element_by_xpath("//div[@data-file-id='197']").click()
 
 @when(u'User Friend Click On Q2')
 def step_impl(context):
     context.driver2.implicitly_wait(10)
-    Q2=context.driver2.find_element_by_xpath("//div[@data-file-id='159']")
-    context.driver2.execute_script('arguments[0].click()', Q2)
+    context.driver2.find_element_by_xpath("//div[@data-file-id='159']").click()
+
 
 @when(u'User Friend Click On Q3')
 def step_impl(context):
-    Q3=context.driver2.find_element_by_xpath("//div[@value='Blue']")
-    context.driver2.execute_script('arguments[0].click()', Q3)
+    context.driver2.find_element_by_xpath("//div[@value='Blue']").click()
+
 
 @when(u'User Friend Click On Q4')
 def step_impl(context):
     
-    Q4=context.driver2.find_element_by_xpath("//div[@data-file-id='46']")
-    context.driver2.execute_script('arguments[0].click()', Q4)
+    context.driver2.find_element_by_xpath("//div[@data-file-id='46']").click()
+
 @when(u'User Friend Click On Q5')
 def step_impl(context):
     context.driver2.find_element_by_xpath("//div[@value='A Billion Dollars']").click()

@@ -212,7 +212,7 @@ def step_impl(context):
 @when(u'User Friend Click On Q1')
 def step_impl(context):
     context.driver2.implicitly_wait(20)
-    context.driver2.execute_script("window.scrollTo(0, 600)")
+    context.driver2.execute_script("window.scrollTo(0, 700)")
     context.driver2.find_element_by_xpath("//div[@data-file-id='197']").click()
 
 @when(u'User Friend Click On Q2')

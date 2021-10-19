@@ -44,7 +44,8 @@ def step_impl(context):
 
 @when(u'Click On Q1')
 def step_impl(context):
-    context.driver.find_element_by_xpath("//div[@data-file-id='197']").click()
+    q1=context.driver.find_element_by_xpath("//div[@data-file-id='197']")
+    context.driver2.execute_script('arguments[0].click()', q1)
 
 @when(u'Validate onesignal pop-up functionality With click on Later Button')
 def step_impl(context):
@@ -59,10 +60,12 @@ def step_impl(context):
 @when(u'Click On Q2')
 def step_impl(context):
     context.driver.implicitly_wait(10)
-    context.driver.find_element_by_xpath("//div[@data-file-id='160']").click()
+    q2=context.driver.find_element_by_xpath("//div[@data-file-id='160']")
+    context.driver2.execute_script('arguments[0].click()', q2)
 @when(u'Click On Q3')
 def step_impl(context):
-    context.driver.find_element_by_xpath("//div[@value='Green']").click()
+    q3=context.driver.find_element_by_xpath("//div[@value='Green']")
+    context.driver2.execute_script('arguments[0].click()', q3)
 
 @when(u'Click On Q4')
 def step_impl(context):
@@ -212,16 +215,19 @@ def step_impl(context):
 @when(u'User Friend Click On Q2')
 def step_impl(context):
     context.driver2.implicitly_wait(10)
-    context.driver2.find_element_by_xpath("//div[@data-file-id='159']").click()
+    Q2=context.driver2.find_element_by_xpath("//div[@data-file-id='159']")
+    context.driver2.execute_script('arguments[0].click()', Q2)
 
 @when(u'User Friend Click On Q3')
 def step_impl(context):
-    context.driver2.find_element_by_xpath("//div[@value='Blue']").click()
+    Q3=context.driver2.find_element_by_xpath("//div[@value='Blue']")
+    context.driver2.execute_script('arguments[0].click()', Q3)
 
 @when(u'User Friend Click On Q4')
 def step_impl(context):
     
-    context.driver2.find_element_by_xpath("//div[@data-file-id='46']").click()
+    Q4=context.driver2.find_element_by_xpath("//div[@data-file-id='46']")
+    context.driver2.execute_script('arguments[0].click()', Q4)
 @when(u'User Friend Click On Q5')
 def step_impl(context):
     context.driver2.find_element_by_xpath("//div[@value='A Billion Dollars']").click()

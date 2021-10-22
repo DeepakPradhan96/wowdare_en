@@ -16,10 +16,10 @@ Feature:  Wowdare User Side End to End Functionality
    @question_Page
   Scenario: Check the functionality of Question Page
   When   Click On Q1
-  And    Validate onesignal pop-up functionality With click on Later Button
   And    Click On Q2
   And    Click On Q3
   And    Click On Q4
+  And    Validate onesignal pop-up functionality With click on Later Button
   And    Click On Q5
   And    Click On Q6
   And    Click On Q7
@@ -95,6 +95,7 @@ Feature:  Wowdare User Side End to End Functionality
 
    @share_page
    Scenario: To check the functionality of Share Page Delete Buttons
+   Given  Validate The Functionality of Scoreboard
    When   Click On share_page Delete Button
    Then   A Delete Pop_Up Should Be Open And  Click On No Button
    Then   Click On Yes Button Share Page

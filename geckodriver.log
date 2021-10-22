@@ -2634,3 +2634,161 @@ JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch res
 ###!!! [Child][MessageChannel] Error: (msgtype=0x390145,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
 
 [Parent 11144, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1634794133918	geckodriver	INFO	Listening on 127.0.0.1:51977
+1634794136337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51978" "-no-remote" "-profile" "C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileoGD21R"
+1634794149453	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileoGD21R\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51978/devtools/browser/8b02e0c8-d962-455c-8b90-51e7399a60e6
+1634794190778	Marionette	INFO	Listening on port 56140
+1634794191086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634794322638	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1634794680392	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: timeout
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634795006174	Marionette	INFO	Stopped listening on port 56140
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 8516, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:59337/devtools/browser/25fd130f-d70d-4aa9-afc4-ab5d0835a2e7
+1634794678188	Marionette	INFO	Listening on port 57685
+1634794678599	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1634795004062	Marionette	INFO	Stopped listening on port 57685
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 7448, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+k\\AppData\\Local\\Temp\\rust_mozprofilewp9hUj\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61812/devtools/browser/ab1139c3-b010-4b15-9a81-a6986f5ea734
+1634795006381	Marionette	INFO	Listening on port 58146
+1634795006696	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634797078590	Marionette	INFO	Stopped listening on port 58146
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+[Parent 9208, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+sm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:59212/devtools/browser/d2371490-7cc1-435c-96e0-369cf2263995
+1634795402307	Marionette	INFO	Listening on port 54631
+1634795402970	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1223 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634795571809	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 11832, MediaDecoderStateMachine #1] WARNING: 2b3696d3580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1564 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 3167 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1028 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 1901 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "--remote-debugging-port" "61535" "-no-remote" "-profile" "C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileDUSckO"
+1634795725117	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileDUSckO\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61535/devtools/browser/ef21509b-96fe-4130-9195-e8a3d83f4208
+1634795734646	Marionette	INFO	Listening on port 64574
+1634795735199	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[Child 2052, MediaDecoderStateMachine #1] WARNING: 26f146f4d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 747 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634795860717	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 2052, MediaDecoderStateMachine #1] WARNING: 26f134e6d60 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 6786 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 808 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 7260 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634796235319	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1634797062127	Marionette	INFO	Stopped listening on port 64574
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:65477/devtools/browser/f80e9e89-9cae-4f15-a10f-049b718c1ef9
+1634796149432	Marionette	INFO	Listening on port 65485
+1634796151232	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1634797056281	Marionette	INFO	Stopped listening on port 65485
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+
+DevTools listening on ws://localhost:56022/devtools/browser/00d0e494-c814-46e2-b880-d471f3f3d07b
+1634796373582	Marionette	INFO	Listening on port 56027
+1634796374536	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: NotFoundError: WindowGlobalParent.getActor: No such JSWindowActor 'MarionetteCommands'
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:65
+unregisterCommandsActor@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:390:15
+GeckoDriver.prototype.deleteSession@chrome://remote/content/marionette/driver.js:2141:3
+onClosed@chrome://remote/content/marionette/server.js:209:17
+close@chrome://remote/content/marionette/transport.js:221:18
+onInputStreamReady@chrome://remote/content/marionette/transport.js:375:14
+
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1634797053557	Marionette	INFO	Stopped listening on port 56027
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1634797110253	geckodriver	INFO	Listening on 127.0.0.1:50582
+1634797114889	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50583" "-no-remote" "-profile" "C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofile3BxccI"
+1634797118681	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofile3BxccI\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new AbortError("The operation was aborted. ", (void 0), 770))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:50583/devtools/browser/dfc42bf8-dd7f-4591-8482-55c00729cdd5
+1634797133162	Marionette	INFO	Listening on port 50621
+1634797133487	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+1634797207373	Marionette	INFO	Stopped listening on port 50621
+JavaScript error: resource:///modules/Interactions.jsm, line 201: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+[Parent 12744, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 12744, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1634797415285	geckodriver	INFO	Listening on 127.0.0.1:51859
+1634797418301	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51860" "-no-remote" "-profile" "C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileBr2ijv"
+1634797420624	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\deepaak\\AppData\\Local\\Temp\\rust_mozprofileBr2ijv\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+DevTools listening on ws://localhost:51860/devtools/browser/5aed1ef0-8f84-4103-b8f7-9d4fa4dbf7b9
+1634797432372	Marionette	INFO	Listening on port 60851
+1634797433141	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 4616 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe299fd580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2a614820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25cb6120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 750 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25322900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25322820 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 4754 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/6ezQI-oG7_JBlIQWa0q_6kDxCwRKhGyZnEhX1xufIgc.js line 1 > eval line 7521 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1634797582663	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.js:238:19
+TimedPromise@chrome://remote/content/marionette/sync.js:223:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.js:431:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.js:179:31
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2a35e120 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2d1123c0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25322e40 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe26bf8040 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2b2ae580 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2b2ae4a0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe2b2ae9e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe253c2900 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25cb6ac0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+[Child 12660, MediaDecoderStateMachine #1] WARNING: 1fe25c652e0 Could not set cubeb stream name.: file /builds/worker/checkouts/gecko/dom/media/AudioStream.cpp:367
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.

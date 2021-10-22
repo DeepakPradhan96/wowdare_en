@@ -7,59 +7,61 @@ from selenium.webdriver.common.action_chains import  ActionChains
 #from selenium.webdriver.common.keys import keys, Keys
 import pyperclip
 
-#driver=webdriver.Firefox()
 driver=webdriver.Chrome(executable_path='C:\Driver\chromedriver_win32\chromedriver.exe')
-driver.get('https://wowdare.xyz')
+driver.get('https://wowdare.xyz/cn')
 driver.maximize_window()
 
-driver.find_element_by_name('name').send_keys('Test')
+driver.find_element(By.CSS_SELECTOR,"[name='name']").send_keys("test")
+time.sleep(0.2)
+driver.find_element(By.XPATH,"//a[@class='btn primary-btn start mt-4 w-90' and @href='#']").click()
 time.sleep(1)
-driver.find_elements_by_css_selector('.btn.primary-btn.start.mt-4.w-90')[0].click()
-time.sleep(2)
 
-wait = WebDriverWait(driver, 20)
-driver.execute_script("window.scrollTo(0, 700)")
-element=wait.until(EC.element_to_be_clickable((By.ID,"onesignal-slidedown-cancel-button")))
+driver.execute_script("window.scrollTo(0, 600)")
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(2)').click()
+time.sleep(1)
+
+wait = WebDriverWait(driver,20)
+element=wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"[id='onesignal-slidedown-cancel-button']")))
 element.click()
 time.sleep(2)
 
-driver.implicitly_wait(10)
-driver.find_elements_by_css_selector('div[data-file-id="197"]')[0].click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(2)').click()
+time.sleep(1)
 
-driver.find_elements_by_css_selector('div[data-file-id="160"]')[0].click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(3)').click()
+time.sleep(1)
 
-driver.find_element(By.CSS_SELECTOR,'div[value="Blue"]').click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(4)').click()
+time.sleep(1)
 
-driver.find_elements_by_css_selector('div[data-file-id="46"]')[0].click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(1)').click()
+time.sleep(1)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(3)').click()
+time.sleep(1)
 
-driver.find_element(By.CSS_SELECTOR,'div[value="Beautiful Life Partner"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="164"').click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(2)').click()
+time.sleep(1)
 
-driver.find_element(By.CSS_SELECTOR,'div[value="Action"]').click()
-time.sleep(0)
 
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="194"]').click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(3)').click()
+time.sleep(1)
 
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="144"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[value="A Dinner with family"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="188"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[value="The Creative One"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="138"]').click()
-time.sleep(0)
-driver.find_element(By.CSS_SELECTOR,'div[value="Two"]').click()
-time.sleep(0)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(1)').click()
+time.sleep(1)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(2)').click()
+time.sleep(1)
 
+time.sleep(1)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(4)').click()
+
+time.sleep(1)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(1)').click()
+
+time.sleep(1)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(2)').click()
+time.sleep(0.3)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(4)').click()
+time.sleep(0.5)
 for x in range(0,12):
     skip = driver.find_element_by_class_name('skip').click()
     time.sleep(0)
@@ -67,19 +69,20 @@ for x in range(0,12):
         print(x)
         break
 
-driver.find_element(By.CSS_SELECTOR,'div[data-file-id="177"]').click()
-time.sleep(2)
+driver.find_element(By.CSS_SELECTOR, '.option:nth-child(3)').click()
 
 driver.execute_script("window.scrollTo(0, 700)")
-driver.find_element_by_css_selector('button[title="Copy Link"]').click()
 driver.find_element_by_css_selector('button[title="Copy Link"]').click()
 time.sleep(3)
 
 
-y = webdriver.Firefox()
+chrome_option=webdriver.ChromeOptions()
+chrome_option.add_argument("--incognito")
+y=webdriver.Chrome(chrome_options=chrome_option)
 y.maximize_window()
 y.get("https://www.google.com/")
-time.sleep(1)
+time.sleep(3)
+
 act = ActionChains(y)
 url = pyperclip.paste()
 print(url)
@@ -97,16 +100,15 @@ for win in handle:
 '''act=ActionChains(y)
 y.find_element_by_xpath('//input[@title="Search"]').send_keys(act.key_down(Keys.CONTROL).send_keys('v').perform())'''
 
-wait = WebDriverWait(y, 30)
-y.execute_script("window.scrollTo(0, 700)")
-element = wait.until(EC.element_to_be_clickable((By.ID, "onesignal-slidedown-cancel-button")))
+wait = WebDriverWait(driver, 20)
+element=wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR,"#onesignal-slidedown-cancel-button")))
 element.click()
 time.sleep(2)
 
 y.implicitly_wait(10)
 
-y.find_element_by_name('name').send_keys('Test@mail')
-time.sleep(0)
+driver.find_elements_by_name('name')[0].send_keys('Test@gmasil,')
+time.sleep(0.2)
 y.find_element_by_xpath("//a[normalize-space()='Confirm']").click()
 time.sleep(0)
 y.find_element_by_name('name').clear()
